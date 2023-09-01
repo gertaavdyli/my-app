@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-app';
+  loginUser(item:any){
+    console.warn(item);
+    
+  }
 }
